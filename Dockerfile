@@ -6,5 +6,4 @@ COPY --from=py_env . .
 RUN mkdir /strivio
 WORKDIR /strivio
 COPY . /strivio/
-RUN chmod +x /strivio/run.sh
 ENV PYTHONUNBUFFERED 1

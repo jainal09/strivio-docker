@@ -7,3 +7,4 @@ RUN mkdir /strivio
 WORKDIR /strivio
 COPY . /strivio/
 ENV PYTHONUNBUFFERED 1
+RUN chmod +x /strivio/run.sh
